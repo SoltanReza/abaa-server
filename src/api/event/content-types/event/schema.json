@@ -4,16 +4,23 @@
   "info": {
     "singularName": "event",
     "pluralName": "events",
-    "displayName": "Event"
+    "displayName": "Event",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "title": {
       "type": "string",
       "required": true
+    },
+    "date": {
+      "type": "date"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

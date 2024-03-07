@@ -1,27 +1,26 @@
 {
   "kind": "collectionType",
-  "collectionName": "posts",
+  "collectionName": "members",
   "info": {
-    "singularName": "post",
-    "pluralName": "posts",
-    "displayName": "Post",
-    "description": ""
+    "singularName": "member",
+    "pluralName": "members",
+    "displayName": "Member"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "name": {
       "type": "string"
     },
-    "description": {
+    "role": {
+      "type": "string"
+    },
+    "about": {
       "type": "text"
     },
-    "content": {
-      "type": "blocks"
-    },
-    "cover": {
+    "photo": {
       "allowedTypes": [
         "images",
         "files",
